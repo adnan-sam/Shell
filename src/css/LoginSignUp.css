@@ -1,13 +1,3 @@
-.container {
-  width: 400px;
-  margin: auto;
-  margin-top: 10%;
-  padding: 36px 48px 48px 48px;
-  background-color: #f2efee;
-  border-radius: 20px;
-  box-shadow: inset;
-}
-
 .account-form {
 	display: flex;
 	flex-direction: column;
@@ -33,10 +23,15 @@
     font-weight: 700;
     font-size: 1.7rem;
   }
-  
+  .auth-form-container {
+    box-shadow: 10px 10px 20px 20px rgba(0.1, 0, 0, 0.1), 10px 10px 40px rgba(0, 0, 0, 0.08);
+  }
   .auth-form-container, .login-form, .register-form {
     display: flex;
     flex-direction: column;
+  }
+  input:focus {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
   }
   
   @media screen and (min-width: 600px) {
