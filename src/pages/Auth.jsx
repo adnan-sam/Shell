@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Login } from "./Login";
-import { Register } from "./Register";
+import { Login } from "../components/Login";
+import { Register } from "../components/Register";
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import '../css/LoginSignUp.css';
 

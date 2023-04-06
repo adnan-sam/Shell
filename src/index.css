@@ -7,7 +7,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh; /*If needed then change it to 100%*/
-  background-image: linear-gradient(#FF70AF, #5f48f5);
+  /* background-image: linear-gradient(67deg, #FF70AF, #C66FBC 40%, #5f48f5);; */
+  /* background-image: linear-gradient(#FF70AF, #5f48f5); */
   font-family: 'Poppins', 'Montserrat', Arial, sans-serif;
 }
 

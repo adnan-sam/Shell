@@ -1,0 +1,6 @@
+.container {
+  max-width: 100%;
+  margin: 15px auto;
+  padding: 0 16px;
+  background-image: linear-gradient(67deg, #FF70AF, #C66FBC 40%, #5f48f5);
+}
