@@ -6,7 +6,8 @@ export const Login = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(email);
+        const userData=localStorage.getItem(email);
+        console.log(Object.entries(userData));
     }
 
     return (
