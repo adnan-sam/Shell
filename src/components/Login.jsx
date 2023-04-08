@@ -6,8 +6,15 @@ export const Login = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const userData=localStorage.getItem(email);
-        console.log(Object.entries(userData));
+        const userData=JSON.parse(localStorage.getItem(email));
+        if(userData[0]["password"]!==pass) {
+            alert("Wrong password");
+            return false;
+        }
+        else {
+            alert("Login successful");
+            return true;
+        }
     }
 
     return (
